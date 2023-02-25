@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contents {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 250px;
+    height: 100vh;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainlinks {
+    text-decoration: none;
+    color: white;
+}
+
+#post {
+    border: 1px solid black;
+    border-radius: 0.7em;
+    background-color: rgb(0, 166, 255);
+    margin: 0.8em;
+    padding: 0.2em;
+}
+
+#postlink {
+    text-decoration: none;
+    color: white;
+}
+
+#bottom {
+    align-self: flex-end;
+    align-items: center;
+}

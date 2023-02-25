@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login or Sign Up</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>Login</h2>
+      <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Login">
+      </form>
+    </div>
+    <div class="form-container">
+      <h2>Sign Up</h2>
+      <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+        <label for="new-username">Username:</label>
+        <input type="text" id="new-username" name="new-username" required>
+
+        <label for="new-password">Password:</label>
+        <input type="password" id="new-password" name="new-password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <input type="submit" value="Sign Up">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
