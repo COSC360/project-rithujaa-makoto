@@ -1,43 +1,117 @@
-body {
-    background-color: black;
+.title {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ccc;
+    padding: 20px;
 }
-
-.contents {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    color: white;
-    float: left;
-    width: 250px;
-    height: 100vh;
-    border: 1px solid grey;
-    display: flex;
-    flex-direction: column;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
-.mainlinks {
+nav ul li {
+    margin-bottom: 10px;
+}
+nav ul li a {
+    color: #333;
     text-decoration: none;
-    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
 }
 
 #post {
-    border: 1px solid black;
     border-radius: 0.7em;
-    background-color: rgb(0, 166, 255);
+    background-color: darkgrey;
     margin: 0.8em;
-    padding: 0.2em;
+    padding: 0.4em;
 }
-
-#postlink {
+  
+.post-story-link {
+    margin: 0 2.5em;
+    color: black;
     text-decoration: none;
-    color: white;
-}
+  }
 
-#bottom {
-    align-self: flex-end;
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .post {
+    background-color: darkgrey;
+    border-radius: 0;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .username {
+    color: black;
+    font-size: 1em;
+  }
+
+  .story {
+    font-size: 1.1em;
+  }
+  
+  .likes-comments {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-}
+    padding: 10px;
+    background-color: #cbcaca;
+  }
+  
+  .likes-comments .likes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .likes-comments .likes i {
+    margin-right: 5px;
+    color: black;
+  }
+  
+  .likes-comments .comments {
+    display: flex;
+    align-items: center;
+  }
+  
+  .likes-comments .comments i {
+    margin-right: 5px;
+    color: black;
+  }
+  
+ 
+  
+  
+  

@@ -2,23 +2,57 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My Discussion Forum</title>
+	<title>My Discussion Forum/main</title>
 	<link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <div class="contents">
-        <p id="title"> My Discussion Forum</p> </br></br>
-        <a href="#" class="mainlinks"> Home</a> </br></br>
-        <a href="#" class="mainlinks"> Profile</a> </br></br>
-        <a href="#" class="mainlinks"> Search </a> </br></br>
-        <a href="login.html" class="mainlinks"> Log out </a> </br></br>
-        <p id="post"> <a href="#" id="postlink"> Post a story!</a> </p>
-        <p id="bottom"> username </p>
-    </div>
-    <article>
+    <body>
+        <nav>
+            <h1 class="title"> My Discussion Forum</h1></br>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="login.html">Log out</a></li>
+            </ul>
+            <p id="post"> <a href="story.html" class="post-story-link"> Post a story!</a> </p>
+        </nav>
+        <div class="container">
+            <div class="post">
+                <p class="username"> <img src="img/profile-picture.jpg"> username </p>
+                <div class="header">
+                    <h1><a href="#" class="storytitle">Discussion Title</a></h1>
+                </div>
+                <p class="story">Hello, welcome to My Discussion Forum!</p>
+            </div>
+            <div class="likes-comments">
+                <div class="likes">
+                  <button class="like-btn">Like</button>
+                </div>
+                <div class="comments">
+                  <button class="comment-btn">Comment</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="post">
+                <p class="username"> <img src="img/profile-picture.jpg"> username </p>
+                <div class="header">
+                    <h1><a href="#" class="storytitle">Kelowna weather</a></h1>
+                </div>
+                <p class="story">The weather is great today!</p>
+            </div>
+            <div class="likes-comments">
+                <div class="likes">
+                  <button class="like-btn">Like</button>
+                </div>
+                <div class="comments">
+                  <button class="comment-btn">Comment</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
 
-    </article>
-</body>
-</html>
 
