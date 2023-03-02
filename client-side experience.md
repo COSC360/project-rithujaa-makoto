@@ -22,7 +22,9 @@ Here is our current design of layout document for the homepage or index page. Th
 
 * Profile page
 
-    Users can customize their profiles with their profile pictures and bio
+    It displays the current users profile which includes their name, email and bio
+    
+    Users can customize their profiles with their profile pictures
 
 * Search page
 
