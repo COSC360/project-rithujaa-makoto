@@ -97,6 +97,7 @@ As previously stated, this design choice is implemented throughout almost the en
    </td>
   </tr>
 </table>
+
 ## Logic process
 
 To start using the My Discussion Forum site, a new user must first register for an account by creating a username, password, and associating an email address. Upon completing the three prompts and providing the necessary information, the user will receive an email to verify the account. They must confirm their account within an hour of receiving the email, before the link expires.
