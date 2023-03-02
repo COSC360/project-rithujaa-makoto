@@ -15,10 +15,24 @@ Here is our current design of layout document for the homepage or index page. Th
 
 ![alt_text](images/image1.png "image_tooltip")
 
+
 * Login page
+
+    Users register and make their unique account with the email and password.
+
 * Profile page
+
+    Users can customize their profiles with their profile pictures and bio
+
 * Search page
+
+    Users can search for Items/Posts by typing keyword in the search box
+
 * Post Story page
+
+    Users can create and post their Story with a title
+
+
 
 As previously stated, this design choice is implemented throughout almost the entire website. The navigation bar on the left is kept minimal.
 
@@ -61,7 +75,7 @@ As previously stated, this design choice is implemented throughout almost the en
    </td>
    <td>home
    </td>
-   <td>
+   <td> ------
    </td>
    <td>admin
    </td>
