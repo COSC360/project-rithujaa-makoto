@@ -5,6 +5,7 @@
   
   body {
     margin: 0;
+    background-color: rgb(43, 47, 55);
   }
   
   .container {
@@ -16,7 +17,7 @@
   
   .form-container {
     padding: 20px;
-    background-color: rgb(212, 212, 212);
+    background-color: black;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     margin: 10px;
@@ -26,6 +27,7 @@
   h2 {
     margin-top: 0;
     text-align: center;
+    color: white;
   }
   
   form {
@@ -35,6 +37,7 @@
   
   label {
     font-weight: bold;
+    color: white;
   }
   
   input[type="text"],
@@ -47,7 +50,7 @@
   }
   
   input[type="submit"] {
-    background-color: grey;
+    background-color: #1D9BF0;
     color: #fff;
     padding: 10px;
     border: none;
