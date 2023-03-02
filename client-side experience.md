@@ -25,7 +25,78 @@ As previously stated, this design choice is implemented throughout almost the en
 
 ## Organization of pages
 
-
+<table>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>login
+   </td>
+   <td>
+   </td>
+   <td>login
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>         |
+   </td>
+   <td>
+   </td>
+   <td>         |
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>home
+   </td>
+   <td>
+   </td>
+   <td>admin
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>       |
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>search
+   </td>
+   <td>Post story
+   </td>
+   <td>profile
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
 ## Logic process
 
 To start using the My Discussion Forum site, a new user must first register for an account by creating a username, password, and associating an email address. Upon completing the three prompts and providing the necessary information, the user will receive an email to verify the account. They must confirm their account within an hour of receiving the email, before the link expires.
