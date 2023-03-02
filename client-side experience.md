@@ -139,6 +139,7 @@ Admin also have the access to hide/delete posts regardless of user’s will.
 
 ## Discussion regarding the design and styles of all pages
 
+this design choice is implemented throughout almost the entire website. 
 
 ## Client-side validation
 
