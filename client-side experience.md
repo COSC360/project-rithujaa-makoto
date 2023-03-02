@@ -46,6 +46,8 @@ Now, users can choose to delete their posts when creating a new one, and similar
 
 Moreover, the user can personalize their account by clicking on the navigation bar and their account name. Then, they can add a profile picture for other users to see.
 
+Administrators possess additional functionalities that are not available to regular users. There will be an “admin-users” page where administrators can access a table that provides several options related to users. This table displays all the users registered on the website, along with their registration date, email address, email confirmation status. Furthermore, administrators can block or promote a user to admin status. They also have a search field that allows them to quickly find a particular user, which can be helpful in checking their activity or swiftly making them an admin or blocking them, rather than scrolling through the entire list.
+Admin also have the access to hide/delete posts regardless of user’s will. 
 
 ## Discussion regarding the design and styles of all pages
 
