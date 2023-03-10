@@ -1,9 +1,5 @@
 # <span style="text-decoration:underline;">Project Proposal - MyDiscussionForum</span>
 
-Makoto Kitamura 14688808
-
-Rithujaa Rajendrakumar 36215556
-
 
 ## <span style="text-decoration:underline;">Description</span>
 
