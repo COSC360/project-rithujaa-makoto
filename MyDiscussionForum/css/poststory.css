@@ -3,12 +3,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(43, 47, 55);
+    background-color: white;
 }
 
 .post-story {
     padding: 20px;
-    background-color: black;
+    background-color: rgb(43, 47, 55);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     margin: 10px;
@@ -55,3 +55,6 @@ body {
     background-color: #3367d6;
   }
   
+  a {
+    color: #1D9BF0;
+  }

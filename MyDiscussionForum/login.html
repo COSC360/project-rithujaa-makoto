@@ -5,12 +5,16 @@
   <title>My Discussion Forum/login</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/login.css">
+  <script type="text/javascript" src="scripts/validate.js"></script>
+  <script src="login.php"></script>
+
 </head>
 <body>
+  
   <div class="container">
     <div class="form-container">
-      <h2>Login</h2>
-      <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+      <h2>My Discussion Forum - Login</h2>
+      <form method="post" action="login.php">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
 
@@ -19,21 +23,9 @@
 
         <input type="submit" value="Login">
       </form>
-    </div>
-    <div class="form-container">
-      <h2>Sign Up</h2>
-      <form method="get" action="http://www.randyconnolly.com/tests/process.php">
-        <label for="new-username">Username:</label>
-        <input type="text" id="new-username" name="new-username" required>
-
-        <label for="new-password">Password:</label>
-        <input type="password" id="new-password" name="new-password" required>
-
-        <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" name="confirm-password" required>
-
-        <input type="submit" value="Sign Up">
-      </form>
+      <br>
+      <p> New user? <a href="signup.html" class="blue">Go to sign up page</a></p> 
+      <p> Guest user? <a href="guest.php" class="blue">Sign in as guest</a></p>
     </div>
   </div>
 </body>
