@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.post-story {
+    padding: 20px;
+    background-color: rgb(43, 47, 55);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 10px;
+    flex-basis: 50%;
+  }
+  
+  .post-story h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .post-story form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-story label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .post-story input,
+  .post-story textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .post-story button {
+    background-color: #1D9BF0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .post-story button:hover {
+    background-color: #3367d6;
+  }
+  
+  a {
+    color: #1D9BF0;
+  }
