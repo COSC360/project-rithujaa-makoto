@@ -10,10 +10,10 @@
 	<header>
 		<?php
 			session_start();
-			$host = "localhost";
-			$database = "cosc360-project";
-			$user = "webuser";
-			$password = "P@ssw0rd";
+			$host = "cosc360.ok.ubc.ca";
+                $database = "db_36215556";
+                $user = "36215556";
+                $password = "36215556";
 			
 			$conn = mysqli_connect($host, $user, $password, $database);
 			
