@@ -15,10 +15,16 @@
         <ul class="search-results">
             <?php
             session_start();
+
+            if(!isset($_SESSION['username'])) {
+              header('Location: login.html');
+              exit();
+            }
+
             $host = "cosc360.ok.ubc.ca";
-                $database = "db_36215556";
-                $user = "36215556";
-                $password = "36215556";
+            $database = "db_36215556";
+            $user = "36215556";
+            $password = "36215556";
 
             $conn = mysqli_connect($host, $user, $password, $database);
 
@@ -42,7 +48,15 @@
                   echo '<p>' . $row["story"] . '</p>';
                   echo '</li>';
                 }
-              }              
+              }        
+              if ($_SESSION['username'] == 'admin1'){
+                ?>  
+                <a href="admin.php">Go back to home page</a>
+                <?php
+              }
+              else { ?>
+                <a href="main.php">Go back to home page</a>
+              <?php }      
             }
 
             mysqli_close($conn);

@@ -11,7 +11,7 @@
         <h1 class="title"> My Discussion Forum</h1></br>
         <p> Admin view</p>
         <ul>
-            <li><a href="main.php">Home</a></li>
+            <li><a href="admin.php">Home</a></li>
             <li><a href="profile.php">Profile</a></li>
             <li><a href="search.php">Search</a></li>
             <li><a href="login.html">Log out</a></li>
@@ -21,6 +21,8 @@
 
 
         <?php
+        session_start();
+        
         $host = "cosc360.ok.ubc.ca";
         $database = "db_36215556";
         $user = "36215556";
@@ -49,9 +51,6 @@
                         <p class="story"><?php echo $row["story"]; ?></p>
                     </div>
                     <div class="likes-comments">
-                        <div class="likes">
-                            <button class="like-btn">Like</button>
-                        </div>
                         <div class="comments">
                                 <a href="view_comments.php?story_id=<?php echo $row['story_id']; ?>">Comment</a>
                                 <form method="post" action="add_comment.php">
@@ -68,7 +67,8 @@
                         </div>
                         <div class="edit">
                             <form action="edit_story.php" method="post">
-                                <button type="submit">Edit story</button>
+                                <input type="hidden" name="story_id" value="<?php echo $row["story_id"]; ?>">
+                                <button type="submit" name="edit-btn">Edit story</button>
                             </form>
                         </div>
                     </div>

@@ -10,6 +10,10 @@
 	<header>
 		<?php
 			session_start();
+			if(!isset($_SESSION['username'])) {
+				header('Location: login.html');
+				exit();
+			}
 			$host = "cosc360.ok.ubc.ca";
                 $database = "db_36215556";
                 $user = "36215556";
